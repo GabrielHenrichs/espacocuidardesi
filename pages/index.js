@@ -2,13 +2,16 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Head from '../components/head';
 import Nav from '../components/nav';
+import Carousel from '../components/carousel';
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-white">
       <Head title="Cuidar de Si | Centro de convivência diurno para idosos" />
 
       <Nav />
+
+      <Carousel />
 
       <div>
         <h1 className="title">Espaço Cuidar de Si</h1>
