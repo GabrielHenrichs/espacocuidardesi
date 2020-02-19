@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Head from '../components/head';
 import Nav from '../components/nav';
+import Footer from '../components/footer';
 
 const Contact = () => {
   return (
@@ -13,6 +14,8 @@ const Contact = () => {
         <h1 className="title">Contato</h1>
         <i class="fab fa-facebook-square"></i>
       </div>
+
+      <Footer />
 
       <style jsx>{`
         .title {
