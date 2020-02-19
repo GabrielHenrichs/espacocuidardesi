@@ -6,7 +6,7 @@ import Footer from '../components/footer';
 const Photos = () => {
   return (
     <div className="bg-white">
-      <Head title="Cuidar de Si | Sobre" />
+      <Head title="Fotos - Cuidar de Si" />
 
       <Nav />
 

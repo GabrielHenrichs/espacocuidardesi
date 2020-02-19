@@ -2,9 +2,9 @@ import React from 'react';
 import LogoNav from '../src/img/logonav.png'
 
 const Nav = () => (
-  <div className="container mb-3">
-    <nav className="navbar navbar-expand-md navbar-light">
-      <a className="navbar-brand col-9 col-md-3 col-lg-3" href="#">
+  <div className="bg-light mb-3">
+    <nav className="container navbar navbar-expand-md navbar-light">
+      <a className="navbar-brand col-9 col-md-3 col-lg-3" href="/index">
         <img src={LogoNav} />
       </a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

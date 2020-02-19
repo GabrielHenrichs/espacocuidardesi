@@ -6,7 +6,7 @@ import Footer from '../components/footer';
 const About = () => {
   return (
     <div className="bg-white">
-      <Head title="Cuidar de Si | Sobre" />
+      <Head title="Sobre - Cuidar de Si" />
 
       <Nav />
 

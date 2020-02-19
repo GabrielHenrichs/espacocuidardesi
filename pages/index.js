@@ -9,16 +9,22 @@ const Home = () => {
     <div className="bg-white">
       <Head title="Cuidar de Si | Centro de convivência diurno para idosos" />
 
-      <Nav />
+      <header>
+        <Nav />
+      </header>
 
-      <Carousel />
+      <main>
+        <Carousel />
+      
+        <div>
+          <h1 className="title">Início</h1>
+          <i class="fab fa-facebook-square"></i>
+        </div>
+      </main>
 
-      <div>
-        <h1 className="title">Início</h1>
-        <i class="fab fa-facebook-square"></i>
-      </div>
-
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
 
       <style jsx>{`
         .title {
