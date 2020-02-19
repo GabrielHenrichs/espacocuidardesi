@@ -14,16 +14,16 @@ const Nav = () => (
       <div className="collapse navbar-collapse text col-md-9 col-lg-6" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto mx-auto">
           <li className="nav-item active mr-4">
-            <a className="nav-link text-secondary" href="#">Início <span className="sr-only">(current)</span></a>
+            <a className="nav-link text-secondary" href="/index">Início <span className="sr-only">(current)</span></a>
           </li>
           <li className="nav-item mr-4">
-            <a className="nav-link text-secondary" href="#">Sobre</a>
+            <a className="nav-link text-secondary" href="/sobre">Sobre</a>
           </li>
           <li className="nav-item mr-4">
-            <a className="nav-link text-secondary" href="#">Fotos</a>
+            <a className="nav-link text-secondary" href="/fotos">Fotos</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-secondary" href="#">Contato</a>
+            <a className="nav-link text-secondary" href="/contato">Contato</a>
           </li>
         </ul>
       </div>

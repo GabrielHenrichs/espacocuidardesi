@@ -1,19 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import Head from '../components/head';
 import Nav from '../components/nav';
-import Carousel from '../components/carousel';
 
-const Home = () => {
+const About = () => {
   return (
     <div className="bg-white">
-      <Head title="Cuidar de Si | Centro de convivência diurno para idosos" />
+      <Head title="Cuidar de Si | Sobre" />
 
       <Nav />
 
-      <Carousel />
-
       <div>
-        <h1 className="title">Início</h1>
+        <h1 className="title">Sobre</h1>
         <i class="fab fa-facebook-square"></i>
       </div>
 
@@ -36,4 +33,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default About;
