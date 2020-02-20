@@ -28,76 +28,76 @@ export default props =>
     <div className="container mt-5">
         <div className="row d-flex justify-content-center">
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img01} className="img-fluid mb-4" />
+                <img src={Img01} className="img-fluid img-thumbnail mb-4" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img02} className="img-fluid mb-4" />
+                <img src={Img02} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img03} className="img-fluid mb-4" />
+                <img src={Img03} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img04} className="img-fluid mb-4" />
+                <img src={Img04} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img05} className="img-fluid mb-4" />
+                <img src={Img05} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img06} className="img-fluid mb-4" />
+                <img src={Img06} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img07} className="img-fluid mb-4" />
+                <img src={Img07} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img08} className="img-fluid mb-4" />
+                <img src={Img08} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img09} className="img-fluid mb-4" />
+                <img src={Img09} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img10} className="img-fluid mb-4" />
+                <img src={Img10} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img11} className="img-fluid mb-4" />
+                <img src={Img11} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img12} className="img-fluid mb-4" />
+                <img src={Img12} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img13} className="img-fluid mb-4" />
+                <img src={Img13} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img14} className="img-fluid mb-4" />
+                <img src={Img14} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img15} className="img-fluid mb-4" />
+                <img src={Img15} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img16} className="img-fluid mb-4" />
+                <img src={Img16} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img17} className="img-fluid mb-4" />
+                <img src={Img17} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img18} className="img-fluid mb-4" />
+                <img src={Img18} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img19} className="img-fluid mb-4" />
+                <img src={Img19} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img20} className="img-fluid mb-4" />
+                <img src={Img20} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img21} className="img-fluid mb-4" />
+                <img src={Img21} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img22} className="img-fluid mb-4" />
+                <img src={Img22} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img23} className="img-fluid mb-4" />
+                <img src={Img23} className="img-fluid mb-4 img-thumbnail" />
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <img src={Img24} className="img-fluid mb-4" />
+                <img src={Img24} className="img-fluid mb-4 img-thumbnail" />
             </div>
         </div>
     </div>

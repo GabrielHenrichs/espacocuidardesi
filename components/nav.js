@@ -2,7 +2,7 @@ import React from 'react';
 import LogoNav from '../src/img/logonav.png'
 
 const Nav = () => (
-  <div className="bg-light mb-3">
+  <div className="bg-white mb-3 shadow-sm">
     <nav className="container navbar navbar-expand-md navbar-light">
       <a className="navbar-brand col-9 col-md-3 col-lg-3" href="/index">
         <img src={LogoNav} />

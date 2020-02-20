@@ -1,5 +1,5 @@
 import React from 'react'   
-import Img1 from '../src/img/img1.jpeg'
+import Img1 from '../src/img/img2.jpeg'
 // import Img2 from '../src/img/img2.jpeg'
 // import Img3 from '../src/img/img3.jpeg'
 
@@ -11,9 +11,9 @@ export default props =>
                 <li data-target="#carouselExampleControls" data-slide-to="1"></li>
                 <li data-target="#carouselExampleControls" data-slide-to="2"></li>
             </ol>
-            <div className="carousel-inner bg-light carousel-top container">
+            <div className="carousel-inner bg-white carousel-top container">
                 <div className="carousel-item active" data-interval="5000">
-                    <img src={Img1} className="d-block w-100" alt="Imagem 1" />
+                    <img src={Img1} className="d-block w-100 img-thumbnail" alt="Imagem 1" />
                 </div>
                 {/* <div className="carousel-item" data-interval="5000">
                     <img src={Img2} className="d-block w-100" alt="Imagem 2" />

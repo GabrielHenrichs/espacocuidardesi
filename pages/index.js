@@ -21,7 +21,17 @@ const Home = () => {
           </div>
         </section>
 
-        <Carousel />
+        <div className="container row d-flex mx-auto">
+          <div className="col-lg-6 my-auto">
+            <Carousel />
+          </div>
+          <div className="col-lg-6 img-thumbnail">
+            <p>O Espaço Cuidar de Si foi criado com o intuito de suscitar a valorização da autonomia e o empoderamento da população idosa, ao proporcionar um ambiente aconchegante, acolhedor e que prima, principalmente, pela promoção do cuidado e do bem-estar de todos aqueles que confiam em nosso trabalho.
+  A partir disto, serão desenvolvidas atividades dinâmicas e interativas com o objetivo de estimular os aspectos cognitivos, psicomotores e sensoriais dos idosos, contando com o  acompanhamento técnico-profissional especializado e altamente qualificado. Entre os exercícios já propostos, temos: oficinas de artesanato, aulas de ginástica, memorização, dança, musicalização, fisioterapia e psicologia.
+  O horário de funcionamento deste espaço é de segunda à sexta-feira de 8h as 18h na Rua Machado Sobrinho, nº 277 no bairro Alto dos Passos em Juiz de Fora.
+Esperamos recebê-lo(s) em breve!</p>
+          </div>
+        </div>
       </main>
 
       <footer>
