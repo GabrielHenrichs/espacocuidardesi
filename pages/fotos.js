@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Head from '../components/head'
 import Nav from '../components/nav'
 import Footer from '../components/footer'
-import Galery from '../components/galery'
+import Galery from '../components/gallery'
 
 const Photos = () => {
   return (
