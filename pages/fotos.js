@@ -3,11 +3,14 @@ import Head from '../components/head'
 import Nav from '../components/nav'
 import Footer from '../components/footer'
 import Galery from '../components/gallery'
+import Row from '../components/row'
 
 const Photos = () => {
   return (
     <div className="bg-white">
       <Head title="Fotos - Cuidar de Si" />
+      
+      <Row />
 
       <Nav />
 

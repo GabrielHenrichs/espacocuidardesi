@@ -1,12 +1,15 @@
-import React, { useEffect, useState } from 'react';
-import Head from '../components/head';
-import Nav from '../components/nav';
-import Footer from '../components/footer';
+import React, { useEffect, useState } from 'react'
+import Head from '../components/head'
+import Nav from '../components/nav'
+import Footer from '../components/footer'
+import Row from '../components/row'
 
 const About = () => {
   return (
     <div className="bg-white">
       <Head title="Sobre - Cuidar de Si" />
+      
+      <Row />
 
       <Nav />
 

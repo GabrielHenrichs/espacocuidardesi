@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import Head from '../components/head';
-import Nav from '../components/nav';
-import Carousel from '../components/carousel';
-import Footer from '../components/footer';
+import React, { useEffect, useState } from 'react'
+import Head from '../components/head'
+import Nav from '../components/nav'
+import Carousel from '../components/carousel'
+import Footer from '../components/footer'
+import Row from '../components/row'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Head title="Cuidar de Si | Centro de convivência diurno para idosos" />
 
       <header>
+        <Row />
         <Nav />
       </header>
 
