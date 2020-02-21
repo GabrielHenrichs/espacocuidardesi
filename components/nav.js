@@ -13,7 +13,7 @@ const Nav = () => (
 
       <div className="collapse navbar-collapse text col-md-9 col-lg-6" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto mx-auto">
-          <li className="nav-item mr-2">
+          <li className="nav-item ml-2 mr-2">
             <a className="nav-link text-warning rounded btn-outline-light" href="/index">Início <span className="sr-only">(current)</span></a>
           </li>
           <li className="nav-item ml-2 mr-2">
@@ -22,7 +22,7 @@ const Nav = () => (
           <li className="nav-item ml-2 mr-2">
             <a className="nav-link text-warning rounded btn-outline-light" href="/fotos">Fotos</a>
           </li>
-          <li className="nav-item ml-2">
+          <li className="nav-item ml-2 mr-2">
             <a className="nav-link text-warning rounded btn-outline-light" href="/contato">Contato</a>
           </li>
         </ul>

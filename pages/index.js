@@ -16,7 +16,7 @@ const Home = () => {
       </header>
 
       <main>
-        <section className="jumbotron text-center p-2">
+        <section className="jumbotron text-center p-2 mb-3">
           <div className="container">
             <h1 className="jumbotron-heading">Cuidar de Si</h1>
             <p className="lead text-muted">Centro de convivência diurno para idosos</p>
@@ -27,11 +27,11 @@ const Home = () => {
           <div className="col-lg-6 my-auto">
             <Carousel />
           </div>
-          <div className="col-lg-6 img-thumbnail">
+          <div className="col-lg-6 img-thumbnail my-2">
             <p>O Espaço Cuidar de Si foi criado com o intuito de suscitar a valorização da autonomia e o empoderamento da população idosa, ao proporcionar um ambiente aconchegante, acolhedor e que prima, principalmente, pela promoção do cuidado e do bem-estar de todos aqueles que confiam em nosso trabalho.
-  A partir disto, serão desenvolvidas atividades dinâmicas e interativas com o objetivo de estimular os aspectos cognitivos, psicomotores e sensoriais dos idosos, contando com o  acompanhamento técnico-profissional especializado e altamente qualificado. Entre os exercícios já propostos, temos: oficinas de artesanato, aulas de ginástica, memorização, dança, musicalização, fisioterapia e psicologia.
-  O horário de funcionamento deste espaço é de segunda à sexta-feira de 8h as 18h na Rua Machado Sobrinho, nº 277 no bairro Alto dos Passos em Juiz de Fora.
-Esperamos recebê-lo(s) em breve!</p>
+            A partir disto, serão desenvolvidas atividades dinâmicas e interativas com o objetivo de estimular os aspectos cognitivos, psicomotores e sensoriais dos idosos, contando com o  acompanhamento técnico-profissional especializado e altamente qualificado. Entre os exercícios já propostos, temos: oficinas de artesanato, aulas de ginástica, memorização, dança, musicalização, fisioterapia e psicologia.
+            O horário de funcionamento deste espaço é de segunda à sexta-feira de 8h as 18h na Rua Machado Sobrinho, nº 277 no bairro Alto dos Passos em Juiz de Fora.
+            Esperamos recebê-lo(s) em breve!</p>
           </div>
         </div>
       </main>
@@ -39,18 +39,6 @@ Esperamos recebê-lo(s) em breve!</p>
       <footer>
         <Footer />
       </footer>
-
-      <style jsx>{`
-        .title {
-          margin: 0;
-          width: 100%;
-          padding-top: 80px;
-          line-height: 1.15;
-          font-size: 48px;
-          text-align: center;
-          color: #355676;
-        }
-      `}</style>
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

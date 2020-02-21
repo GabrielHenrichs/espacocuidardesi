@@ -9,18 +9,30 @@ const Contact = () => {
     <div className="bg-white">
       <Head title="Contato - Cuidar de Si" />
 
-      <Row />
+      <header>
+        <Row />
+        <Nav />
+      </header>
 
-      <Nav />
+      <main>
+        <section className="jumbotron text-center p-2 mb-3">
+          <div className="container">
+            <h1 className="jumbotron-heading">Contato</h1>
+            <p className="lead text-muted">Venha nos fazer uma visita!</p>
+          </div>
+        </section>
 
-      <section className="jumbotron text-center p-2">
-        <div className="container">
-          <h1 className="jumbotron-heading">Contato</h1>
-          <p className="lead text-muted"></p>
+        <div className="container col-5 my-3 img-thumbnail">
+          <p>Telefone: (32)3321-0619 | (32)99175-7257</p>
+          <p>Endereço: Rua Machado Sobrinho, 277 Alto dos Passos. Juiz de Fora, MG</p>
+          <p>Email: cuidardesi.jf@gmail.com</p>
+          <p>Redes sociais: <i className="fab fa-instagram-square"></i></p>
         </div>
-      </section>
+      </main>
 
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
