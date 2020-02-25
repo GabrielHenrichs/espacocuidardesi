@@ -15,10 +15,10 @@ const Photos = () => {
         <Nav />
       </header>
 
-      <main>
+      <main className="container">
         <section className="jumbotron text-center p-2 mb-3">
           <div className="container">
-            <h1 className="jumbotron-heading">Galeria de Fotos</h1>
+            <h1 className="jumbotron-heading jumbotron-text">Galeria de Fotos</h1>
             <p className="lead text-muted">Conheça um pouco da nossa casa!</p>
           </div>
         </section>

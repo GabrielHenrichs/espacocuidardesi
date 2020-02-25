@@ -1,4 +1,6 @@
 import React from 'react'
+import "../styles/styles.scss"
+
 
 const Footer = () => (
     <div className="footer navbar-fixed-bottom mt-auto py-2 bg-light">

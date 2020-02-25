@@ -15,10 +15,10 @@ const Contact = () => {
         <Nav />
       </header>
 
-      <main>
+      <main className="container">
         <section className="jumbotron text-center p-2 mb-3">
           <div className="container">
-            <h1 className="jumbotron-heading">Contato</h1>
+            <h1 className="jumbotron-heading jumbotron-text">Contato</h1>
             <p className="lead text-muted">Venha nos fazer uma visita!</p>
           </div>
         </section>

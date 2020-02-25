@@ -14,10 +14,10 @@ const About = () => {
         <Nav />
       </header>
 
-      <main>
+      <main className="container">
         <section className="jumbotron text-center p-2 mb-3">
           <div className="container">
-            <h1 className="jumbotron-heading">Sobre a Cuidar de Si</h1>
+            <h1 className="jumbotron-heading jumbotron-text">Sobre a Cuidar de Si</h1>
             <p className="lead text-muted">Conheça o nosso trabalho!</p>
           </div>
         </section>

@@ -7,7 +7,7 @@ export default props =>
     <div className="container">
         <div id="carouselExampleControls" className="carousel slide carousel-fade" data-ride="carousel">
             <ol className="carousel-indicators">
-                <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="0" className="active"></li>
                 <li data-target="#carouselExampleControls" data-slide-to="1"></li>
                 <li data-target="#carouselExampleControls" data-slide-to="2"></li>
             </ol>
