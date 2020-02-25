@@ -6,7 +6,7 @@ const Nav = () => (
   <div className="container bg-white mb-3 shadow-sm">
     <nav className=" navbar navbar-expand-lg">
       <a className="navbar-brand col-6 col-lg-3" href="/index">
-        <img src={LogoNav} />
+        <img className="logo" src={LogoNav} />
       </a>
 
       <div className="collapse navbar-collapse col-lg-6 row align-items-center" id="navbarSupportedContent">
