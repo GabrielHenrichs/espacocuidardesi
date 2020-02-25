@@ -5,7 +5,7 @@ import "../styles/styles.scss"
 const Nav = () => (
   <div className="container bg-white mb-3 shadow-sm">
     <nav className=" navbar navbar-expand-lg">
-      <a className="navbar-brand col-4 col-lg-3" href="/index">
+      <a className="navbar-brand col-3 col-lg-3" href="/index">
         <img className="logo" src={LogoNav} />
       </a>
 
