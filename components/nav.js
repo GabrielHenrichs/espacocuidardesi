@@ -5,7 +5,7 @@ import "../styles/styles.scss"
 const Nav = () => (
   <div className="container bg-white mb-3 shadow-sm">
     <nav className=" navbar navbar-expand-lg">
-      <a className="navbar-brand col-3 col-lg-3" href="/index">
+      <a className="navbar-brand col-5 col-lg-3" href="/index">
         <img className="logo" src={LogoNav} />
       </a>
 
@@ -26,7 +26,7 @@ const Nav = () => (
         </ul>
       </div>
 
-      <div className="row col-6 col-lg-3 text-right align-items-center">
+      <div className="row col-5 col-lg-3 text-right align-items-center">
         <a className="logo-rs col-4" href="https://www.facebook.com/espacocuidardesi/" target="_blank"><i class="fab fa-facebook-square"></i></a>
         <a className="logo-rs col-4" href="https://www.instagram.com/espacocuidardesi/" target="_blank"><i className="fab fa-instagram-square"></i></a>
         <a className="logo-rs col-4" href="https://api.whatsapp.com/send?1=pt_BR&phone=5532991757257" target="_blank"><i class="fab fa-whatsapp-square"></i></a>
