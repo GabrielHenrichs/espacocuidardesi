@@ -3,6 +3,7 @@ import Head from '../components/head'
 import Nav from '../components/nav'
 import Footer from '../components/footer'
 import Row from '../components/row'
+import "../styles/styles.scss"
 
 const Contact = () => {
   return (

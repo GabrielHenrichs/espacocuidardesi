@@ -1,0 +1,27 @@
+@import "./fontawesome/fontawesome";
+@import "./fontawesome/brands";
+@import "./fontawesome/regular";
+@import "./fontawesome/solid";
+
+.logo-vermelho {
+    color: rgb(233, 104, 57);
+}
+
+.logo-azul {
+    color: rgb(69, 157, 177);
+}
+
+.logo-amarelo {
+    color: rgb(229, 184, 61);
+}
+
+.logo-text {
+    color: rgb(53, 86, 118);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.logo-fa {
+    color: rgb(53, 86, 118);
+    font-size: 35px;
+}
