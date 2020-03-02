@@ -1,4 +1,5 @@
 import React from 'react'
+import $ from 'jquery'
 import "../styles/styles.scss"
 import Img01 from '../src/img/gallery/01.jpeg'
 import Img02 from '../src/img/gallery/02.jpeg'
@@ -25,116 +26,126 @@ import Img22 from '../src/img/gallery/22.jpeg'
 import Img23 from '../src/img/gallery/23.jpeg'
 import Img24 from '../src/img/gallery/24.jpeg'
 
-export default props =>
-    <div className="container mt-5">
-        <div className="row d-flex justify-content-center">
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img01} className="img-fluid img-thumbnail mb-4" data-toggle="modal" data-target="#modalExemplo" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img02} className="img-fluid mb-4 img-thumbnail" data-toggle="modal" data-target="#modalExemplo" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img03} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img04} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img05} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img06} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img07} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img08} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img09} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img10} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img11} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img12} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img13} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img14} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img15} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img16} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img17} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img18} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img19} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img20} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img21} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img22} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img23} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-            <div className="col-12 col-md-6 col-lg-3 cursor">
-                <img src={Img24} className="img-fluid mb-4 img-thumbnail" />
-            </div>
-        </div>
+export default class Gallery extends React.Component {
+    componentDidMount() {
+        const foundation = require('foundation-sites');
+        $(document).foundation();
+    }
 
-        {/* <!-- Modal --> */}
-        <div className="modal fade bd-example-modal-lg" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div className="modal-dialog modal-lg modal-dialog-centered" role="document">
-                <div className="modal-content bg-transparent">
-                    <div className="modal-header p-1 border-0">
-                        <button type="button" className="close text-white" data-dismiss="modal" aria-label="Fechar">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div className="modal-body p-1">
-                        <div id="carouselExampleControls" className="carousel slide carousel-fade" data-keyboard="true"  data-interval="false">
-                            <div className="carousel-inner carousel-top container">
-                                <div className="carousel-item active">
-                                    <img src={Img01} className="img-fluid mb-4 img-thumbnail" />
+    render() {
+        return (
+        <div className="container mt-5">
+            <div className="row d-flex justify-content-center">
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img01} className="img-fluid img-thumbnail mb-4" data-toggle="modal" data-target="#modalExemplo" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img02} className="img-fluid mb-4 img-thumbnail" data-toggle="modal" data-target="#modalExemplo" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img03} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img04} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img05} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img06} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img07} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img08} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img09} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img10} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img11} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img12} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img13} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img14} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img15} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img16} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img17} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img18} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img19} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img20} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img21} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img22} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img23} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 cursor">
+                    <img src={Img24} className="img-fluid mb-4 img-thumbnail" />
+                </div>
+            </div>
+
+            {/* <!-- Modal --> */}
+            <div className="modal fade bd-example-modal-lg" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div className="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <div className="modal-content bg-transparent">
+                        <div className="modal-header p-1 border-0">
+                            <button type="button" className="close text-white" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div className="modal-body p-1">
+                            <div id="carouselExampleControls" className="carousel slide carousel-fade" data-keyboard="true" data-interval="false">
+                                <div className="carousel-inner carousel-top container">
+                                    <div className="carousel-item active">
+                                        <img src={Img01} className="img-fluid mb-4 img-thumbnail" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img src={Img02} className="img-fluid mb-4 img-thumbnail" id="foto02" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img src={Img03} className="img-fluid mb-4 img-thumbnail" />
+                                    </div>
                                 </div>
-                                <div className="carousel-item">
-                                    <img src={Img02} className="img-fluid mb-4 img-thumbnail" id="foto02" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img src={Img03} className="img-fluid mb-4 img-thumbnail" />
-                                </div>
+                                <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" data-ride="carousel">
+                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span className="sr-only">Previous</span>
+                                </a>
+                                <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" data-ride="carousel">
+                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span className="sr-only">Next</span>
+                                </a>
                             </div>
-                            <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" data-ride="carousel">
-                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span className="sr-only">Previous</span>
-                            </a>
-                            <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" data-ride="carousel">
-                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span className="sr-only">Next</span>
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        )
+    }
+}
