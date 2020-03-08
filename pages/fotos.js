@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
+import CustomGallery from '../components/custom-gallery/custom-gallery'
 import Head from '../components/head'
 import Nav from '../components/nav'
 import Footer from '../components/footer'
-import Galery from '../components/gallery'
 import Row from '../components/row'
 
 const Photos = () => {
@@ -23,7 +23,7 @@ const Photos = () => {
           </div>
         </section>
 
-        <Galery />
+        <CustomGallery />
       </main>
 
       <footer>
